@@ -1,0 +1,35 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "generate-svg": "cd uncompiled && yarn run svg2rn -i uncompiled/ -o src/components/svg/ --expo"
+  },
+  "dependencies": {
+    "expo": "^33.0.0",
+    "expo-asset": "^5.0.1",
+    "expo-av": "^5.0.2",
+    "expo-font": "^5.0.1",
+    "expo-keep-awake": "^5.0.1",
+    "expo-linear-gradient": "^5.0.1",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native-grid-component": "^2.0.0",
+    "react-native-image-view": "^2.1.5",
+    "react-native-router-flux": "beta",
+    "react-native-svg": "~9.4.0",
+    "react-native-svg-charts": "^5.2.0",
+    "react-native-swiper": "^1.5.14",
+    "react-native-tab-view": "^2.5.0",
+    "sentry-expo": "^1.13.0"
+  },
+  "devDependencies": {
+    "babel-plugin-root-import": "^6.2.0",
+    "babel-preset-expo": "^5.2.0",
+    "react-native-dotenv": "^0.2.0",
+    "svg2rn": "^1.7.0"
+  },
+  "private": false
+}
